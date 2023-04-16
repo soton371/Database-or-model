@@ -1,0 +1,7 @@
+{% extends 'basic.html' %}
+{% block body %}
+  <h1>This is home page</h1>
+  {% for value in name %}
+  {{value}},
+  {% endfor %}
+{% endblock %}
